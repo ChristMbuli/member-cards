@@ -160,8 +160,8 @@ require ('../../backend/getmember.php')
                                             <h2><?= $fname . ' ' . $lname ?></h2>
                                             <h3><?= $fonc ?></h3>
                                             <div class="social-links mt-2">
-                                                <p class="fw-bold"><?= $mat ?></p>
-                                                <p><?= $expiration ?></p>
+                                                <a href="./card.php?id_member=<?= $memberId ?>" class="text-center"><i
+                                                        class="fa-solid fa-eye"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -184,9 +184,13 @@ require ('../../backend/getmember.php')
                                                         data-bs-target="#profile-edit">Editer profil</button>
                                                 </li>
 
-                                                <li class="nav-item">
+                                                <!-- <li class="nav-item">
                                                     <button class="nav-link" data-bs-toggle="tab"
                                                         data-bs-target="#profile-settings">Carte membre</button>
+                                                </li> -->
+                                                <li class="nav-item">
+                                                    <button class="nav-link" data-bs-toggle="tab"
+                                                        data-bs-target="#profile-settings">Options</button>
                                                 </li>
 
                                             </ul>
@@ -278,7 +282,7 @@ require ('../../backend/getmember.php')
                                                 </div>
 
                                                 <!-- Carte membre -->
-                                                <div class="tab-pane fade pt-3"
+                                                <!-- <div class="tab-pane fade pt-3"
                                                     style="background-image: url('../images/membre.png');background-size: cover; height:73vh"
                                                     id="profile-settings">
 
@@ -306,7 +310,7 @@ require ('../../backend/getmember.php')
                                                         </div>
                                                     </div>
 
-                                                </div>
+                                                </div> -->
                                                 <!-- Fin carte membre -->
                                             </div>
 

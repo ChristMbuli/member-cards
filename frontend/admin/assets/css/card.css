@@ -1,0 +1,105 @@
+.contenu-img{
+    margin-top: -56px;
+    color: #000;
+    position: relative;
+    height:120vh;
+}
+
+/* Styles pour l'élément .contenu-img */
+.contenu-img::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 120vh; /* Assurez-vous que la hauteur est intentionnelle */
+    top: 0;
+    left: 0;
+    background: url('../../../images/membre (1).png') no-repeat center center; 
+    z-index: 1;
+}
+
+/* Styles pour l'élément .ordinaire */
+.ordinaire::after {
+    position: absolute;
+    content: ''; /* Pas de texte dans le contenu */
+    width: 43.5%;
+    height: 48vh;
+    top: 44%; /* Ajustez si nécessaire */
+    left: 35%; /* Ajustez si nécessaire */
+    background-color: aliceblue; /* Ajout d'une couleur de fond si nécessaire */
+    z-index: 5;
+}
+
+/* Styles pour l'élément .mat */
+.mat {
+    margin-top: 8.8%; /* Ajustez si nécessaire */
+    margin-left: 36%; /* Ajustez si nécessaire */
+    color: #e0d5d5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.mat::after {
+    position: absolute;
+    content: ''; /* Pas de texte dans le contenu */
+    z-index: 10;
+}
+
+.profil {
+    margin-left: 5%;
+    margin-top: 4rem;
+}
+
+.profil img {
+    width: 170px;
+    height: 170px;
+
+}
+
+.lname {
+    margin-top: -9.1rem;
+    margin-left: 55%;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.fname {
+    margin-top: -1.2%;
+    margin-left: 59%;
+    font-size: 1rem;
+    color: rgb(12, 10, 10);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.fonct {
+    margin-top: -1%;
+    margin-left: 59%;
+    font-size: 1rem;
+    color: rgb(3, 3, 3);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.phone {
+    margin-top: -1.5%;
+    margin-left: 61%;
+    font-size: 1rem;
+    color: rgb(5, 4, 4);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.expiration {
+    margin-top: -1%;
+    margin-left: 70%;
+    font-size: 1rem;
+    color: rgb(14, 7, 7);
+    text-transform: uppercase;
+    font-weight: bold;
+}

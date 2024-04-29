@@ -101,3 +101,10 @@
     </nav>
     <!-- End Icons Navigation -->
 </header>
+<style>
+@media (min-width: 992px) {
+    .toggle-sidebar-btn {
+        display: none;
+    }
+}
+</style>

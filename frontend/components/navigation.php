@@ -2,8 +2,8 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
         <a href="index.html" class="logo d-flex align-items-center">
             <!-- Uncomment the line below if you also wish to use an image logo -->
-            <!-- <img src="./logo-parti.png" alt="" > -->
-            <h1>Parti de la Jeunesse Dynamique <span>.</span></h1>
+            <img src="./logo-parti.png" alt="">
+            <!-- <h1>Parti de la Jeunesse Dynamique <span>.</span></h1> -->
         </a>
 
         <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
